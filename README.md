@@ -30,4 +30,4 @@ We are going to use C++ within a already built game engine with an AI system. Th
 4) 2D Graphics Software - Adobe Illustrator, Photoshop, etc.
 
 ## Expected Outcome
-The expected outcome of this project is a brief knowledge about the industry level tools like Unreal Engine, Blender, Zbrush, etc. and a complete 3D tank simulator video game which can be played on a personal computer.
+The expected outcome of this project is a brief knowledge about the industry level tools like Unreal Engine, Blender, Zbrush, etc. and a complete 3D tank simulator video game which can be played on a personal computer or console like Playstation or Xbox.
