@@ -3,11 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Tank.h"
 #include "GameFramework/PlayerController.h"
 #include "TankPlayerController.generated.h"		// Must be the last included
 
-
+class ATank;
 
 UCLASS()
 class TANK_BLITZ_TEMP_API ATankPlayerController : public APlayerController
