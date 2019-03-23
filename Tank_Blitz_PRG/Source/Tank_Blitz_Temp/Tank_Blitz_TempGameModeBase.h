@@ -4,13 +4,13 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "Tank_Blitz_PRGGameModeBase.generated.h"
+#include "Tank_Blitz_TempGameModeBase.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class TANK_BLITZ_PRG_API ATank_Blitz_PRGGameModeBase : public AGameModeBase
+class TANK_BLITZ_TEMP_API ATank_Blitz_TempGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
 	

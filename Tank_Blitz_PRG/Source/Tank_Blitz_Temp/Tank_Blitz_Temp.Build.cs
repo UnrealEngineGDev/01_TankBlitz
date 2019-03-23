@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Tank_Blitz_PRG : ModuleRules
+public class Tank_Blitz_Temp : ModuleRules
 {
-	public Tank_Blitz_PRG(ReadOnlyTargetRules Target) : base(Target)
+	public Tank_Blitz_Temp(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	

@@ -5,9 +5,13 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Tank_Blitz_PRG",
+			"Name": "Tank_Blitz_Temp",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"AIModule"
+			]
 		}
 	]
 }
