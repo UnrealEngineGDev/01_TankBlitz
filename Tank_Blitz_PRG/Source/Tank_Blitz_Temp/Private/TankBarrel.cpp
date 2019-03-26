@@ -19,4 +19,3 @@ void UTankBarrel::Elevate(float RelativeSpeed)
 	//UE_LOG(LogTemp, Warning, TEXT("%f : AimSolution Found!"), Time);
 }
 
-

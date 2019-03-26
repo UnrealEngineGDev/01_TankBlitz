@@ -20,8 +20,9 @@ public:
 	
 private:
 	UPROPERTY(EditAnywhere, Category = Setup)
-	float MaxDegreesPerSecond = 8;	// Sensible Default
+	float MaxDegreesPerSecond = 10;	// Sensible Default
 
+	// Barrel Elevation
 	UPROPERTY(EditAnywhere, Category = Setup)
 	float MaxElevationDegrees = 40;	// Sensible Default
 
