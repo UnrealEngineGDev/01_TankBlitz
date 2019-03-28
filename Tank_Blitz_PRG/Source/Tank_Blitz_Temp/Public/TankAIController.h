@@ -20,4 +20,7 @@ private:
 	void BeginPlay() override;
 
 	virtual void Tick(float DeltaSeconds) override;
+
+	// Check for the AI and Player distance after the movement
+	float AcceptanceRadius = 3000;
 };
