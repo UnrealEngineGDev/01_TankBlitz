@@ -13,9 +13,5 @@ void UTankBarrel::Elevate(float RelativeSpeed)
 	auto Elevation = FMath::Clamp<float>(RawNewElevation, MinElevationDegrees, MaxElevationDegrees);
 
 	SetRelativeRotation(FRotator(Elevation, 0, 0));
-
-	// Measuring Time for barrel movement and finding aim solutions for pixel co-ordinates
-	//auto Time = GetWorld()->GetTimeSeconds();
-	//UE_LOG(LogTemp, Warning, TEXT("%f : AimSolution Found!"), Time);
 }
 
