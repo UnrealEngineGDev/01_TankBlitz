@@ -16,11 +16,13 @@ class TANK_BLITZ_TEMP_API ATankAIController : public AAIController
 {
 	GENERATED_BODY()
 	
+protected:
+	// Check for the AI and Player distance after the movement
+	UPROPERTY(EditAnywhere, Category = Setup)
+	float AcceptanceRadius = 8000;
+
 private:
 	void BeginPlay() override;
 
 	virtual void Tick(float DeltaSeconds) override;
-
-	// Check for the AI and Player distance after the movement
-	float AcceptanceRadius = 3000;
 };
