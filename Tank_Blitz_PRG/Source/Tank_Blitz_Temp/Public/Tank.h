@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "Tank.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FTankDelegate);
+
 UCLASS()
 class TANK_BLITZ_TEMP_API ATank : public APawn
 {
@@ -18,13 +20,17 @@ public:
 	UFUNCTION(BlueprintPure, Category = Health)
 	float GetHealthPercent();
 
+	FTankDelegate OnDeath;
+
 private:
 	// Sets default values for this pawn's properties
 	ATank();
+
+	virtual void BeginPlay() override;
 
 	UPROPERTY(EditDefaultsOnly, Category = Setup)
 	int32 StartingHealth = 100;
 
 	UPROPERTY(VisibleAnywhere, Category = Setup)
-	int32 CurrentHealth = StartingHealth;
+	int32 CurrentHealth;	// Initalised in BeginPlay
 };
