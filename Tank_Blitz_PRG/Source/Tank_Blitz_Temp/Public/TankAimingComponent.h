@@ -69,9 +69,10 @@ private:
 	UPROPERTY(EditDefaultsOnly, Category = Firing)
 	float ReloadTimeInSeconds = 3;
 
+	UPROPERTY(EditDefaultsOnly, Category = Firing)
+	int32 RoundsLeft = 3;
+
 	double LastFireTime = 0;
 
 	FVector AimDirection;
-
-	int RoundsLeft = 3;
 };
